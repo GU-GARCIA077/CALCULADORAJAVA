@@ -1,0 +1,3 @@
+public enum Tipo {
+    SOMAR, SUBTRAIR, MULTIPLICAR,DIVIDIR;
+}

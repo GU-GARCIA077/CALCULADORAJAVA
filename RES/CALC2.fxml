@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane fx:controller="Controllercalc2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CC66FF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" layoutX="397.0" layoutY="54.0" prefHeight="301.0" prefWidth="173.0" spacing="45.0" style="-fx-background-color: #CC00FF;">
+         <children>
+            <Button fx:id="BTSOMA" minWidth="200.0" mnemonicParsing="false" text="Somar" />
+            <Button fx:id="BTSUB" minWidth="200.0" mnemonicParsing="false" text="Subtrair" />
+            <Button fx:id="BTMULT" minWidth="200.0" mnemonicParsing="false" text="Multiplicar" />
+            <Button fx:id="BTDIV" minWidth="200.0" mnemonicParsing="false" text="Dividir" />
+            <Button fx:id="BTLIMPA" minWidth="200.0" mnemonicParsing="false" text="Limpar" textFill="#f51111" />
+         </children>
+      </VBox>
+      <HBox layoutX="11.0" layoutY="12.0" prefHeight="375.0" prefWidth="367.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="408.0" prefWidth="367.0" spacing="30.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="52.0" prefWidth="146.0" text="CALCULADORA 2" textAlignment="CENTER" />
+                  <Label text="VALOR1" />
+                  <TextField fx:id="TEXTFIELD1" />
+                  <Label text="VALOR 2" />
+                  <TextField fx:id="TEXTFIELD2" />
+                  <Label text="RESULTADO" />
+                  <TextField fx:id="TEXTRESULT" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</Pane>
