@@ -1,0 +1,3 @@
+# CALCULADORAJAVA
+Este projeto foi desenvolvido em faculdade, para promover o ensino de programação orientada a objeto.
+Nele utilizamos a extensão FXML, e no java criamos funções,enuns, classes etc...
